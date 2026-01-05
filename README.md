@@ -3,6 +3,8 @@
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/2d3238f0-4018-48a9-a1d8-4c4d337aca19" />    
 
+<img width="2555" height="1079" alt="image" src="https://github.com/user-attachments/assets/c8124eb4-f292-4ac2-be1d-682ad5494f19" />    
+
 A continuación se presenta una **solución completa, profesional y ejecutable en Java (IntelliJ IDEA)** que cumple exactamente con lo solicitado:
 
 * Implementa una **función lineal**
