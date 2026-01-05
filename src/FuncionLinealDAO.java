@@ -24,4 +24,4 @@ public class FuncionLinealDAO {
             e.printStackTrace();
         }
     }
-}   
+}

@@ -1,15 +1,25 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+    public static void main(String[] args) {
+
+        // Parámetros de la función lineal
+        double m = 2.5;
+        double b = 1.0;
+
+        // Valor de entrada
+        double x = 4.0;
+
+        FuncionLineal funcion = new FuncionLineal(m, b);
+        FuncionLinealDAO dao = new FuncionLinealDAO();
+
+        // Vector bidimensional
+        double[] vector = funcion.calcular(x);
+
+        System.out.println("Vector 2D generado:");
+        System.out.println("X = " + vector[0]);
+        System.out.println("Y = " + vector[1]);
+
+        // Registro en Oracle
+        dao.registrarVector(vector, funcion.getM(), funcion.getB());
     }
 }
