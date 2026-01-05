@@ -6,7 +6,7 @@ public class ConexionOracle {
 
     private static final String URL = "jdbc:oracle:thin:@//localhost:1521/orcl";
     private static final String USER = "SYSTEM";
-    private static final String PASSWORD = "Tapiero123";    
+    private static final String PASSWORD = "Tapiero123";
 
     public static Connection getConexion() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
