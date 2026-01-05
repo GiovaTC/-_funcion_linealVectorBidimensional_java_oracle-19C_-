@@ -21,4 +21,4 @@ public class FuncionLineal {
     public double getB() {
         return b;
     }
-}   
+}
